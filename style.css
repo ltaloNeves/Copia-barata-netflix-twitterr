@@ -1,0 +1,131 @@
+*{
+    text-decoration: none;
+    color: white;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+
+    font-size: 50px;
+    color: white;
+
+
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+
+
+
+    display: flex;
+    justify-content: center;
+
+
+    /*top right bottom left z-index*/
+}
+
+.box1 {
+ 
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -25%);
+    
+ 
+  
+
+
+}
+
+
+
+
+.perfil1{
+    transition: transform 0.2s ease-in-out;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.perfil1:hover{
+    border: 3px solid white;
+    transform: scale(1.0);
+    transform-origin: center center;
+}
+
+
+
+
+.box2 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -25%);
+
+
+}
+.perfil2{
+    transition: transform 0.2s ease-in-out;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.perfil2:hover{
+    border: 3px solid white;
+    transform: scale(1.0);
+    transform-origin: center center;
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+
+
+    color: inherit;
+    border: 2px solid rgba(128, 128, 128, 0.55);
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    transition: transform 0.2s ease-in-out;
+}
+button:hover{
+    border: 2px solid white;
+    color: grey;
+    transform: scale(1.2);
+    transform-origin: center center;
+ }
+
+
+ figcaption{
+    color:  grey;
+
+    position: absolute;
+    left: 35%;
+    text-align: center;
+
+
+
+ }
+figcaption:hover{
+    color: white;
+ }
+
+
+ .pencil-outline{
+    pointer-events: none;
+ }
+
